@@ -1,0 +1,17 @@
+.malfunction_list ul {
+  padding: 0;
+}
+
+.malfunction_list li {
+    margin: 5px;
+    padding: 3px 15px;
+  border: 1px solid #23305c;
+  border-radius: 5px;
+  list-style-type: none;
+  cursor: pointer;
+  background-color: #A6D0E6;
+}
+
+.malfunction_list li:hover {
+  background-color: #fb6d6c;
+}

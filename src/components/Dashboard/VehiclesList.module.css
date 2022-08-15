@@ -1,0 +1,21 @@
+.vehicles_list {
+    /* background-color: #FB6D6C; */
+    background-color: #A6D0E6;
+}
+
+.vehicles_list ul {
+    list-style: none;
+    margin: 0px;
+    padding: 10px;
+}
+
+.vehicles_list li {
+    margin: 5px 0px;
+}
+
+.vehicles_list_error {
+    color: #FB6D6C;
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+}

@@ -1,0 +1,13 @@
+.malfunctionDetails_h2 {
+    color: white;
+}
+
+.malfunctionDetails_lines div {
+    margin: 10px 0px;
+    padding: 5px 10px;
+    border: 1px solid #23305c;
+    border-radius: 5px;
+    background-color: #A6D0E6;
+    font-size: 18px;
+    color: #23305c;
+}

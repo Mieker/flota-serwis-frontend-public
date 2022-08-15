@@ -1,0 +1,28 @@
+.form h1 {
+  color: white;
+  padding-left: 10px;
+}
+
+.form form {
+  margin: auto;
+  width: 95%;
+  min-height: 200px;
+}
+
+.form_inputs_group {
+  border: 2px solid #23305c;
+  border-radius: 5px;
+  padding: 20px 0px;
+}
+
+.form_actions {
+  display: flex;
+  justify-content: right;
+  margin-top: 20px;
+}
+
+.invalid_input {
+  color: #fb6d6c;
+  font-weight: bold;
+  text-align: center;
+}

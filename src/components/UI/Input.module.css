@@ -1,0 +1,58 @@
+.input {
+  margin: 10px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.input label {
+  width: 25%;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0px 20px;
+}
+
+.input_wrapper {
+  width: 75%;
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+}
+
+.input_wrapper select {
+  width: 90%;
+}
+
+.input input {
+  border: 1px solid #23305c;
+  border-radius: 5px;
+  box-shadow: 3px 3px #23305c;
+  width: 90%;
+  height: 1.5rem;
+}
+
+.invalid_input input {
+  border: 1px solid #fb6d6c;
+  box-shadow: 3px 3px #fb6d6c;
+}
+
+.invalid_input_error_message {
+  margin: 0px;
+  color: #fb6d6c;
+  font-weight: bold;
+}
+
+.invalid_input p {
+  text-align: left;
+  width: 100%;
+  margin: 0px;
+}
+
+@media (max-width: 600px) {
+  .input {
+    flex-direction: column;
+  }
+  .input input {
+    width: 100%;
+  }
+}

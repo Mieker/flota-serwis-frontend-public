@@ -1,0 +1,12 @@
+.additional_options_wrapper {
+  color: #23305c;
+  font-weight: bold;
+  margin-left: 5%;
+}
+
+.error {
+  color: #FB6D6C;
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
+}
